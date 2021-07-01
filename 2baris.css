@@ -1,0 +1,16 @@
+#sitemapsamehada a:hover{color:#000}
+#sitemapsamehada .isi .abjad{color:#444;padding:10px 15px;font-size:110%;font-weight:600;text-transform:uppercase;position:relative;max-width:90%}
+#sitemapsamehada .isi ol{column-count: 2;}
+#sitemapsamehada ol,#sitemapsamehada ol li{list-style-type:none}
+#sitemapsamehada .nav ol{margin:0 0 15px;padding:0;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;flex-wrap:wrap;align-items:center;justify-content:center}
+#sitemapsamehada .nav ol li{background-color:#6d87db;color:#fff;padding:7px;cursor:pointer;border-radius:50%;margin:0 5px 5px 0;text-align:center;text-transform:uppercase;width:40px}
+.abjad span{padding:7px 15px;background:#6d87db;color:white;border-bottom:5px solid #6d87db;z-index:9999}
+#sitemapsamehada .nav ol li:last-child{margin-right:0}
+#sitemapsamehada .isi ol{max-width:100%;column-count:2;margin-left:5%;padding:0;border-top:0}
+#sitemapsamehada .isi ol li:nth-child(odd){background:rgb(244,244,244)}
+#sitemapsamehada .isi ol li{list-style:disc;margin:3px 2px;color:#666;padding:8px 8px;line-height:1.5em;-webkit-margin-start:0!important;overflow:hidden}
+#sitemapsamehada .nav ol li:hover{background:#E91E63;transition:.5s}
+.abjad:after{border-top:5px solid #6d87db;position:absolute;bottom:0;width:100%;content:""}
+@media screen and (max-width:480px){#sitemapsamehada .isi ol{column-count: 1;}#sitemapsamehada{font-size:13px}#sitemapsamehada .judul{padding:10px}#sitemapsamehada .isi .abjad{padding:7px 15px;margin-right: 0px;padding-left: 0px;}}
+@media screen and (max-width:360px){#sitemapsamehada .isi ol{column-count: 1;}#sitemapsamehada{font-size:12px}#sitemapsamehada .judul{padding:10px}#sitemapsamehada .isi .abjad{padding:7px 12px}#sitemapsamehada .isi ol li{padding:7px 12px}}
+ .genrelist{list-style:none;overflow:auto;border-radius:3px;padding:4px 0;max-height:197px}.genrelist li a{font-size:12px;font-weight:700;width:46%;float:left;margin:3px 4px;border-radius:3px;background:#fff;color:#333;padding:9px;box-shadow:1px 1px 1px 1px rgba(0,0,0,.28);border-left:5px rgba(0,0,0,.23) solid;transition:all .3s ease 0s}.genrelist li a:hover{background:#333;text-decoration:none;color:#fff;transform:rotate(-5deg)} 
