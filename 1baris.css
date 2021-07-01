@@ -1,0 +1,16 @@
+#sitemapsamehada{font-size:14px;font-weight:400}
+#sitemapsamehada .judul{display:none}
+#sitemapsamehada a{transition:all .3s ease;line-height:24px;font-size:15px;font-weight:600;color:#444!important;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;text-decoration:none}
+#sitemapsamehada a:hover{color:#000}
+#sitemapsamehada .isi .abjad{color:#444;padding:10px 15px;font-size:110%;font-weight:600;text-transform:uppercase;position:relative;max-width:80%}
+#sitemapsamehada ol,#sitemapsamehada ol li{list-style-type:none}
+#sitemapsamehada .nav ol{margin:0 0 15px;padding:0;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;flex-wrap:wrap;align-items:center;justify-content:center}
+#sitemapsamehada .nav ol li{background-color:#3F51B5;color:#fff;padding:10px 0;cursor:pointer;margin:0 5px 5px 0;text-align:center;text-transform:uppercase;width:40px;border-radius:5px}
+.abjad span{padding:13px 2px 13px 26px;background:#3F51B5;color:white;z-index:9999}
+#sitemapsamehada .nav ol li:last-child{margin-right:0}
+#sitemapsamehada .isi ol{max-width:80%;margin-left:5%;padding:0;border-top:0}
+#sitemapsamehada .isi ol li{list-style:disc;color:#666;margin:0;padding:10px 15px;line-height:1.5em;-webkit-margin-start:0!important}
+#sitemapsamehada .nav ol li:hover{background:#E91E63;transition:.5s}
+.abjad:after{border-top:6px solid  #3F51B5;position:absolute;bottom:0px;width:100%;content:""}
+@media screen and (max-width:480px){#sitemapsamehada{font-size:13px}#sitemapsamehada .judul{padding:10px}#sitemapsamehada .isi .abjad{padding:7px 15px;margin-right: 0px;padding-left: 0px;}}
+@media screen and (max-width:360px){#sitemapsamehada{font-size:12px}#sitemapsamehada .judul{padding:10px}#sitemapsamehada .isi .abjad{padding:7px 12px}#sitemapsamehada .isi ol li{padding:7px 12px}}
